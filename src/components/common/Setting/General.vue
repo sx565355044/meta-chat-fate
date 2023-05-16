@@ -23,7 +23,7 @@ const userInfo = computed(() => userStore.userInfo)
 
 // const avatar = ref(userInfo.value.avatar ?? '')
 
-// const nickname = ref(userInfo.value.nickname ?? '三生宇宙')
+// const nickname = ref(userInfo.value.nickname ?? '一贤科技')
 const bindMobile = ref(userInfo.value.mobile ?? '绑定为空')
 
 const description = ref(userInfo.value.description ?? '')
